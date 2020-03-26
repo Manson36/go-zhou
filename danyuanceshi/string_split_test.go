@@ -13,3 +13,10 @@ func TestSplit(t *testing.T) {
 		t.Errorf("want:%v, but got:%v", want, ret)
 	}
 }
+
+//Benchmark 基准测试
+func BenchmarkSplit(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Split("babedberdbd", "b")
+	}
+}
