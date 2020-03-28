@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	//最长不重复子串
-	s := "jsonzifuchuan"
+	s := "abcdadb"
 	sum := 0
 	ret := ""
 	var mapC = make(map[int32]int, 20)

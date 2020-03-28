@@ -1,0 +1,11 @@
+### /loginJson json实验
+POST {{base_url}}/loginJson
+Content-Type: {{contentType}}
+Cookie: {{cookie}}
+
+{
+    "username":"root",
+    "password":"admin"
+}
+
+###
